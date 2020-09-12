@@ -825,12 +825,9 @@ The teachers are highly qualified and provide personal mentoring for the day to 
 
   <script type="text/javascript">
       $(document).on('click', '#jivochatclick', function(event) {
-    event.preventDefault();
-  //  alert("Hello");
-    // $("#jvlabelWrap .hoverl_ebc").click();
+     event.preventDefault();
+     alert("Hello");
     var className = $('#jvlabelWrap jdiv:nth-child(1) > jdiv:nth-child(1)').attr('class');
-  //  alert(className);
-    // $("#jvlabelWrap "+className).click();
     $('#jvlabelWrap .'+className).click();
     }); 
 
